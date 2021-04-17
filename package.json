@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.24.0",
+    "ffmpeg": "^0.0.4",
+    "libsodium": "^0.7.9",
+    "yt-search": "^2.8.0",
+    "ytdl-core": "^4.5.0"
+  },
+  "name": "flip",
+  "description": "The greatest Discord bot of all time!",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeetsquad747/Flip.git"
+  },
+  "keywords": [
+    "Discord"
+  ],
+  "author": "Yeetsquad747",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeetsquad747/Flip/issues"
+  },
+  "homepage": "https://github.com/yeetsquad747/Flip#readme"
+}
