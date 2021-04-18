@@ -16,7 +16,14 @@ client.once('ready', () => {
 
 // Listens for messages
 client.on('message', message => {
-	console.log(message.content);
+	if (!message.content.startsWith(prefix) || message.author.bot) return;
+
+	const args = message.content.slice(prefix.length).trim().split(/ +/);
+	const command = args.shift().toLowerCase();
+
+	if (!args.length && command) {
+		message.channel.send('Please enter arguements');
+	}
 });
 
 // Logs into Discord client
