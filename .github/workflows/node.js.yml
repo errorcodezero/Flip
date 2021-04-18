@@ -32,4 +32,4 @@ jobs:
           BOT_PREFIX = ${{secrets.BOT_PREFIX}}
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm start
+    - run: npm test
