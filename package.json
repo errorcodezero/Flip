@@ -15,8 +15,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "lint": "eslint .",
-    "test": "node ."
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
