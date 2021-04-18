@@ -14,5 +14,10 @@ client.once('ready', () => {
 	console.log(`Ready and the prefix is ${prefix}`);
 });
 
+// Listens for messages
+client.on('message', message => {
+	console.log(message.content);
+});
+
 // Logs into Discord client
 client.login(token);
